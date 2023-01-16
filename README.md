@@ -1,28 +1,33 @@
-# Google Engineering Practices Documentation
+# Airship Engineering Practices Documentation
 
-Google has many generalized engineering practices that cover all languages and
-all projects. These documents represent our collective experience of various
-best practices that we have developed over time. It is possible that open source
-projects or other organizations would benefit from this knowledge, so we work to
-make it available publicly when possible.
+## TODOS:
+* Document Airship's decision to adopt these guidelines.
+
+Airship has many generalized engineering practices that cover several
+languages, and frameworks across many of projects and customers. These
+documents represent our collective experience of various best practices that we
+have developed over time. It is possible that open source projects or other
+organizations would benefit from this knowledge, so we work to make it
+available publicly when possible.
 
 Currently this contains the following documents:
 
-*   [Google's Code Review Guidelines](review/index.md), which are actually two
+*   [Airship's Code Review Guidelines](review/index.md), which are actually three
     separate sets of documents:
     *   [The Code Reviewer's Guide](review/reviewer/index.md)
     *   [The Change Author's Guide](review/developer/index.md)
+    *   [The Learning Opportunity Guide](review/learning/index.md)
 
 ## Terminology
 
-There is some Google-internal terminology used in some of these documents, which
+There is some internal Airship terminology used in some of these documents, which
 we clarify here for external readers:
 
-*   **CL**: Stands for "changelist", which means one self-contained change that
+*   **PR**: Stands for "pull-request", which means one self-contained change that
     has been submitted to version control or which is undergoing code review.
-    Other organizations often call this a "change", "patch", or "pull-request".
+    Other organizations often call this a "change", or "patch".
 *   **LGTM**: Means "Looks Good to Me". It is what a code reviewer says when
-    approving a CL.
+    approving a PR.
 
 ## License
 
