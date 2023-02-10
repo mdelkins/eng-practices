@@ -1,6 +1,4 @@
-# How to write code review comments
-
-
+# How To Write Code Review Comments
 
 ## Summary
 
@@ -39,7 +37,7 @@ following, or how your suggestion improves code health.
 
 ## Giving Guidance {#guidance}
 
-**In general it is the developer's responsibility to fix a CL, not the
+**In general it is the developer's responsibility to fix a PR, not the
 reviewer's.** You are not required to do detailed design of a solution or write
 code for the developer.
 
@@ -51,14 +49,14 @@ can result in a better solution, because the developer is closer to the code
 than the reviewer is.
 
 However, sometimes direct instructions, suggestions, or even code are more
-helpful. The primary goal of code review is to get the best CL possible. A
+helpful. The primary goal of code review is to get the best PR possible. A
 secondary goal is improving the skills of developers so that they require less
 and less review over time.
 
 Remember that people learn from reinforcement of what they are doing well and
-not just what they could do better. If you see things you like in the CL,
+not just what they could do better. If you see things you like in the PR,
 comment on those too! Examples: developer cleaned up a messy algorithm, added
-exemplary test coverage, or you as the reviewer learned something from the CL.
+exemplary test coverage, or you as the reviewer learned something from the PR.
 Just as with all comments, include [why](#why) you liked something, further
 encouraging the developer to continue good practices.
 
@@ -75,7 +73,7 @@ Here are some examples:
 > Optional (or Consider): I think this may be a good idea, but it’s not strictly
 > required.
 >
-> FYI: I don’t expect you to do this in this CL, but you may find this
+> FYI: I don’t expect you to do this in this PR, but you may find this
 > interesting to think about for the future.
 
 This makes review intent explicit and helps authors prioritize the importance of
@@ -89,10 +87,5 @@ If you ask a developer to explain a piece of code that you don't understand,
 that should usually result in them **rewriting the code more clearly**.
 Occasionally, adding a comment in the code is also an appropriate response, as
 long as it's not just explaining overly complex code.
-
-**Explanations written only in the code review tool are not helpful to future
-code readers.** They are acceptable only in a few circumstances, such as when
-you are reviewing an area you are not very familiar with and the developer
-explains something that normal readers of the code would have already known.
 
 Next: [Handling Pushback in Code Reviews](pushback.md)
